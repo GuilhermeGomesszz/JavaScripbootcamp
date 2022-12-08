@@ -1,3 +1,10 @@
-let fruits = ['apple', 'banana'];
-let veggies = ['asparagus', 'brussel sprotus'];
-console.log(fruits.concat(veggies));
+
+
+function avar(arr){
+    let total = 0;
+    for (let num of arr){
+        total += num;
+    } 
+    let res = total / arr.lenght;
+    return res;
+}          
