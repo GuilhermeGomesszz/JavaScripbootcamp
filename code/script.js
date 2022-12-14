@@ -1,10 +1,6 @@
 
-
-function avar(arr){
-    let total = 0;
-    for (let num of arr){
-        total += num;
-    } 
-    let res = total / arr.lenght;
-    return res;
-}          
+const isNineteen = function(x, y) {
+    return function (num) {
+        return num >= x && num <= y;
+    }
+}
